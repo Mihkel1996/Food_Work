@@ -1,0 +1,290 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: orange;
+}
+.menu {
+    
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.menu a {
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    background-color: rgb(173, 116, 10);
+}
+
+
+.top {
+    width: 100%;
+    height: 25vh;
+    background-image: linear-gradient(#b48b8ba9, #9198e588), url('../img/FoodBackground.jpg');
+
+}
+
+.toptext {
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 1.5;
+    font-family: 'Merriweather', serif;
+}
+.firstlayout {
+    width: 100%;
+    height: 25vh;
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Lora', serif;
+}
+
+
+.secondlayout {
+    width: 100%;
+    height: 22vh;
+    background-image: linear-gradient(#248549a9, #21d8c0a6), url('../img/8-colour_24199230_1050x600.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.secondlayout p {
+    width: 100%;
+    height: 22vh;
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.thirdlayout {
+    width: 100%;
+    height: 23vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+.fifthlayout {
+    width: 100%;
+    height: 22vh;
+    background-image: linear-gradient(#da861abe, #b1080863), url('../img/cropped-GettyImages-643764514-650x428.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.fifthlayout h2 {
+    width: 100%;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-family: 'Questrial', sans-serif;
+}
+
+.ninthlayout {
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+.ninthlayout img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+/*.ninthlayout .photo_21 {
+    width: 100%;
+    height: 15vh;
+    background-image: url('../img/Speciality_photos/Air-Fryer-Broccoli-Bites-6.jpg');
+}
+
+.ninthlayout .photo_22 {
+    width: 100%;
+    height: 15vh;
+    background-image: url('../img/Speciality_photos/Crispy-Garlic-Roasted-Potatoes-IMAGE-18.jpg');
+}
+
+.ninthlayout .photo_23 {
+    width: 100%;
+    height: 15vh;
+    background-image: url('../img/Speciality_photos/DSC_0261.0.0_Real_Italian_Gusto.jpg');
+}
+
+.ninthlayout .photo_24 {
+    width: 100%;
+    height: 15vh;
+    background-image: url('../img/Speciality_photos/ham-cucumber-recipe_ham_and_cucumber_sandwiches.jpg');
+}*/
+
+
+.footers {
+    box-align: center;
+    display: grid;
+    width: 100%;
+    height: 15vh;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Barlow', sans-serif;
+}
+
+.footer1 {
+    background: red;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+.footer2 {
+    background: red;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 320px) {
+    .ninthlayout {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .toptext h2 {
+        width: 10%;
+        height: 10%;
+    }
+    .secondlayout p {
+        font-size: 16px;
+    }
+    .thirdlayout p {
+        font-size: 16px;
+    }
+    .fifthlayout h2 {
+        font-weight: 1.5rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .menu {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu a {
+        padding: 1rem;
+    }
+
+    .toptext {
+        width: 100%;
+        height: 100%;
+        font-size: 75%;
+    }
+    .toptext h2 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .firstlayout {
+        font-size: 80%;
+    }
+
+    /*.secondlayout p {
+        line-height: 1.1rem;
+        font-size: 1.5;
+    }
+
+    .thirdlayout {
+        font-size: 60%;
+    }*/
+
+    .fifthlayout h2 {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 720px) {
+    .menu {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu a {
+        padding: 1rem;
+    }
+
+    .toptext {
+        width: 100%;
+        height: 100%;
+        font-size: 75%;
+    }
+    .toptext h2 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .firstlayout {
+        font-size: 80%;
+    }
+
+    .secondlayout p{
+        font-size: 45%;
+    }
+
+    /*
+    .thirdlayout {
+        text-align: center;
+        text-justify: auto;
+        font-size: 1.1rem;
+    }*/
+
+    .fifthlayout {
+        font-size: 75%;
+    }
+}
+

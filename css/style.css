@@ -1,0 +1,156 @@
+:root {
+    --yellow: yellow;
+    --green: green;
+    --red: red;
+    --orange: orange;
+}
+button {
+    box-sizing: border-box;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    text-decoration-color: white;
+    text-align: center;
+    color: var(--red);
+}
+h3 {
+    font-size: 2rem;
+    color: black;
+}
+p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+li {
+    block-size: 10rem;
+    border-block-color: black;
+}
+.wrapper {
+    display: grid;
+    gap: 20px;
+}
+.top {
+    top: 20%;
+    left: 15%;
+    text-align: center;
+    width: 80rem;
+    height: 20rem;
+    padding-block: center;
+    background-image: url('../img/FoodBackground.jpg');
+}
+.toptext {
+    width: 25rem;
+    height: 20rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+p.toptext {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 18px 27px;
+}
+.firstlayout {
+    background: orange;
+    width: 65rem;
+    height: 35rem;
+    background-image: url('../img/8-colour_24199230_1050x600.jpg');
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.secondlayout {
+    display: grid;
+    gap: 20px;
+    top: 23%;
+    left: 40%;
+    width: 20rem;
+    height: 10rem;
+    background-image: url('../img/cropped-GettyImages-643764514-650x428.jpg');
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+}
+.thirdlayout {
+    display: grid;
+    gap: 20px;
+    background-image: url('..img/paper-bag-food-with-vegetables-fruit-and-meat-on-royalty-free-image-1151978570-1566417686.jpg')
+}
+.fourthlayout {
+    
+}
+
+.fifthlayout {
+    
+}
+.sixthlayout {
+    display: grid;
+    gap: 20px;
+    background-image: url('../img/Photos_2/')
+}
+.ninthlayout {
+    display: grid;
+    gap: 20px;
+    width: 30rem;
+    height: 15rem;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));;
+}
+.photo_21 {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    padding-block: center;
+    width: 30rem;
+    height: 15rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
+    background-image: url('../img/Photos_2/AAEUyGF.img.jpg');
+}
+.photo_22 {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    padding-block: center;
+    width: 30rem;
+    height: 15rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
+    background-image: url('../img/Photos_2/acs-h.assetsadobe.com.jpg');
+}
+.photo_23 {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    padding-block: center;
+    width: 30rem;
+    height: 15rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
+    background-image: url('../img/Photos_2/paper-bag-food-with-vegetables-fruit-and-meat-on-royalty-free-image-1151978570-1566417686.jpg');
+}
+.btnpage {
+    text-decoration-style: solid;
+}
+.footers {
+    box-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.footer1 {
+    background: brown;
+    font-size: 20px;
+    text-align: center;
+    padding-block: center;
+    width: 40rem;
+    height: 30rem;
+}
+.footer2 {
+    background: brown;
+    font-size: 20px;
+    text-align: center;
+    padding-block: center;
+    width: 40rem;
+    height: 30rem;
+}
